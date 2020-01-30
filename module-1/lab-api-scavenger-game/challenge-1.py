@@ -39,9 +39,6 @@ print("Commits: ", len(commits))
 
 # Challenge 3:
 
-
-
-
 files = requestGithub("/repos/ironhack-datalabs/scavenger/contents")
 path = [e["path"] for e in files]
 
